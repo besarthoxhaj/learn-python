@@ -28,4 +28,8 @@ To run or activate the local python and pip binaries use `source env/bin/activat
 
 For more info read [this useful tutorial](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/).
 
+When installing a new package run `pip freeze > requirements.txt`, sort of `npm install <name> --save`.
+
 ### scientific packages
+
+http://www.lowindata.com/2013/installing-scientific-python-on-mac-os-x/
