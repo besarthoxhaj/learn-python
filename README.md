@@ -28,8 +28,4 @@ To run or activate the local python and pip binaries use `source env/bin/activat
 
 For more info read [this useful tutorial](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/).
 
-### virtualenv vs virtualenvwrapper
-
-
-
 ### scientific packages
