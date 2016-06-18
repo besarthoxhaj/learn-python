@@ -10,3 +10,4 @@ print 'say.mySecretName', say.mySecretName
 # say.mySecretName Ale
 print 'sub.my_math.__name__', sub.my_math.__name__
 # sub.my_math
+print 'sub.my_math.addToTwo(2)', sub.my_math.addToTwo(2)
