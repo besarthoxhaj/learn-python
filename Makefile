@@ -11,4 +11,10 @@ install:
 	@env/bin/pip install -r requirements.txt
 	@echo "You user! Execute: 'source env/bin/activate' to run the correct python and pip"
 
-.PHONY: install
+save:
+	pip freeze > requirements.txt
+
+watch:
+	repyt server.py
+
+.PHONY: install save

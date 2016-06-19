@@ -6,3 +6,4 @@ print addToThree(0)
 # 3
 print addToThree(1)
 # 4
+print 'try'
