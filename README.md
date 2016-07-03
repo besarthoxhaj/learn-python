@@ -1,3 +1,14 @@
+## Start the project
+
+Clone the repo
+
+```
+make install
+source env/bin/activate
+```
+
+And you are ready to go!
+
 ## Learn python my way
 
 In order to understand a programming language I need to know:
