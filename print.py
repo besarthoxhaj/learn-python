@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-print('print(print)',dir(print))
+print('print(print)', dir(print))
 
 # print(vars())
 # # {
