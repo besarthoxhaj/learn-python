@@ -53,7 +53,12 @@ All of it can be found at [https://docs.python.org/2.7/tutorial/](https://docs.p
 
 In Python 2.x `print` is actually a special statement and not a function.
 
-## module system
+## modules
+
+```py
+#
+
+```
 
 ## `pip` and `virtualenv`
 
@@ -92,6 +97,8 @@ ptw
 pip install pytest-testmon
 # run with
 ptw --runner "pytest --testmon"
+# to print
+pytest -s
 ```
 
 Pytest will recursively look for `test_*.py` or `*_test.py`. Inside those files
@@ -101,6 +108,9 @@ For more info check:
   - https://docs.pytest.org/en/latest/goodpractices.html#test-discovery
   - https://github.com/joeyespo/pytest-watch
   - https://github.com/tarpas/pytest-testmon
+  - https://stackoverflow.com/q/43162722
+  - https://stackoverflow.com/q/8658043
+  - https://stackoverflow.com/q/24617397
 
 ## lint and prettify
 
